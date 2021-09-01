@@ -1,5 +1,3 @@
-https://colab.research.google.com/
-
 Algortima :
 Step 1 Jika n = 0, return nilai m sebagai hasil dan stop. Jika tidak, kembali ke Step 2.
 Step 2 Bagi nilai m dengan n, masukan nilai sisanya ke r.
@@ -50,6 +48,11 @@ p = r
 r = q
 
 -----------------------------------------------------------------------------
+Algoritma :
+Step 1 Deklarasikan variabel a, t, L
+Step 2 Masukkan nilai a dan t
+Step 3 Hitung Luas segitiga
+
 Pseudocode
 
 input (a = 25, t = 30)
