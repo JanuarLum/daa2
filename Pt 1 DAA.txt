@@ -1,0 +1,98 @@
+https://colab.research.google.com/
+
+Algortima :
+Step 1 Jika n = 0, return nilai m sebagai hasil dan stop. Jika tidak, kembali ke Step 2.
+Step 2 Bagi nilai m dengan n, masukan nilai sisanya ke r.
+Step 3 Masukan nilai n ke m dan nilai r ke n. Kembali ke Step 1.
+
+Pseudocode:
+While n ≠ 0 do
+r ← m mod n
+m ← n
+n ← r
+return m
+
+------------------------------------------------------------------------------
+Algoritma:
+
+Step 1 Jika n = 0, return m sebagai hasil dan stop. Jika tidak, lanjut ke Step 2.
+Step 2 Bagi nilai m dengan n, masukan sisanya ke j.
+Step 3 Masukan nilai n ke m dan nilai j ke n, kali nilai m dengan n lalu bagi dengan j. Kembali ke step 1.
+
+Pseudocode:
+
+While n != 0 do
+j = m mod n
+m = n
+n = j
+z = (n * m / j)
+
+------------------------------------------------------------------------------
+Fungsi untuk menukar 2 variabel x dan y:
+
+define swap (x,y)
+buffer = x
+x = y
+y = buffer
+
+-----------------------------------------------------------------------------
+Algoritma : 
+Step 1 misalkan piring 1 manggis = p dan piring 2 pisang = r
+Step 2 Siapkan piring kosong
+Step 3 Pindahkan manggis ke piring kosong
+Step 4 Pindahkan pisang ke piring 1
+Step 5 Pindahkan manggis ke piring 2
+
+Pseudocode
+define swap (p,r)
+q = p
+p = r
+r = q
+
+-----------------------------------------------------------------------------
+Pseudocode
+
+input (a = 25, t = 30)
+luas = a * t / 2
+display (luas)
+
+-----------------------------------------------------------------------------
+Algoritma
+Step 1 Deklarasikan variabel a, b, dan L
+Step 2 Masukkan nilai a dan b
+Step 3 Kalikan nilai a dan b sehingga didapatkan hasil luas jajar genjang
+
+Pseudocode
+a = 5
+b = 3
+L = a * b
+
+-----------------------------------------------------------------------------
+Algoritma
+Step 1 siapkan 3 variabel
+Step 2 Masukkan nilai jari jari (r) dan tinggi (t)
+Step 3 Hitung volume
+
+Pseudocode
+declare int (r, t)
+declare float 3.14
+r = 3
+t = 5
+V = 3.14 * (3 * 3) * 5
+Hasil = 141,3
+
+-----------------------------------------------------------------------------
+Algoritma
+Step 1 Deklarasikan 4 variabel
+Step 2 Masukkan nilai d, t dan phi
+Step 3 ubah d menjadi r dengan membagi 2
+Step 4 Hitung Volume
+
+Pseudocode
+declare int (d, t, r)
+declare float (phi)
+d = 5
+t = 4
+phi = 3.14
+r = d / 2
+V = (3.14 * 2.5 * 2.5 * 4) / 3
